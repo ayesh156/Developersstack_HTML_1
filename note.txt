@@ -1,0 +1,161 @@
+// ------------ HTML Main Tags
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My First Web Page</title>
+  </head>
+  <body>
+  
+  </body>
+</html>
+
+
+// ------------ HTML Heading Tags
+
+<h1>Heading 1</h1>
+<h2>Heading 1</h2>
+<h3>Heading 1</h3>
+<h4>Heading 1</h4>
+<h5>Heading 1</h5>
+<h6>Heading 1</h6>   
+
+// ------------ HTML Paragraph Tag
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae cum quo reprehenderit beatae minus adipisci. Cum nulla mollitia eligendi doloremque sapiente rem id ea, aut quidem itaque dolor, aliquid delectus laudantium ullam consequatur incidunt quo. Labore ad, illo dicta eveniet odit quibusdam error, sint quo molestias illum eligendi quidem cum.</p>
+
+// ------------ HTML Formatting Tags
+
+    <!-- <b> (bold) alternative <strong> (bold) -->
+    <!-- <strong> -->
+    <!-- <i> -->
+    <!-- <u> -->
+    <!-- <mark> -->
+    <!-- <small> -->
+    <!-- <sup> -->
+    <!-- <sub> -->
+    <b>Lorem</b> <strong>ipsum</strong> <i>dolor</i> <u>sit amet</u> <mark>consectetur</mark> <small>adipisicing</small> 10 <sup>2</sup>  20 <sub>3</sub> elit. 
+    <b>1000</b> <del>2000</del>
+
+// ------------ HTML marquee Tag
+--used to create a scrolling piece of text or an image
+
+    <marquee>Hello World</marquee>
+    <marquee direction="right">Hello World</marquee>
+    <marquee direction="up">Hello World</marquee>
+    <marquee direction="down">Hello World</marquee>
+    <marquee direction="right" behavior="alternate">Hello World</marquee>
+
+// ------------ HTML br Tag (Line break)
+
+    Nimal <br>
+    Kamal <br>
+    Saman
+
+// ------------ HTML Unordered List
+
+    <ul type="square">
+      <li>Nimal</li>
+      <li>Kamal</li>
+      <li>Saman</li>
+      <li>Bandara</li>
+      <li>Jagath</li>
+    </ul>
+
+// ------------ HTML hr Tag (horizontal line)
+
+<hr>
+
+// ------------ HTML Ordered List
+
+    <ol type="I">
+      <li>Nimal</li>
+      <li>Kamal</li>
+      <li>Saman</li>
+      <li>Bandara</li>
+      <li>Jagath</li>
+    </ol>
+
+// ------------ HTML Ordered List
+
+    <!-- Block level element -->
+    <h1 style="background-color: red;">Hi World</h1>
+    <p style="background-color: green;">Hi World</p>
+
+    <!-- Inline element -->
+    <span style="background-color: yellowgreen;">Hi World</span>
+    <span style="background-color: blue;">Hi World</span>
+
+// ------------ HTML a Tag (anchor)
+
+    <a href="http://www.google.com">Google.com</a> <br>
+    <a href="http://www.google.com" target="_blank">Google.com</a>
+
+// ------------ HTML img Tag (image)
+
+    <!-- link -->
+    <!-- image download and set -->
+
+    <img src="https://m.media-amazon.com/images/M/MV5BMTM3ZGUwYTEtZTI5NS00ZmMyLTk2YmQtMWU4YjlhZTI3NjRjXkEyXkFqcGc@._V1_QL75_UX190_CR0,8,190,281_.jpg" alt="Film post image">
+
+    <img src="black-adam.jpg" alt="Film post image">
+    
+// loading Attribute
+
+    <img src="black-adam.jpg" alt="Film post image" loading="lazy">
+    <div style="height: 2500px;"></div>
+    <img src="jawan.jpg" alt="Film post image" loading="lazy">
+
+// ------------ HTML Table
+
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Salary</th>
+          <th>Tel</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td colspan="2">Kamal</td>
+          <td>25000</td>
+          <td rowspan="2">071</td>
+        </tr>
+        <tr>
+          <td>Jagath</td>
+          <td>Panadura</td>
+          <td>50000</td>
+        </tr>
+      </tbody>
+   </table>
+
+// ------------ HTML iframe
+
+    <h1>#Visit to Sri Lanka</h1>
+
+    <hr>
+
+   <!-- <iframe src="https://www.booking.com" style="width: 100%; height: 800px;"  frameborder="0"></iframe> -->
+
+   <div style="width: 100%"><iframe width="100%" height="600" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=matara+(My%20Business%20Name)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a href="https://www.gps.ie/">gps devices</a></iframe></div>
+
+// ------------ HTML video Tag
+
+    <video 
+    src="ZenBook_Duo.mp4"
+    width="500"
+    controls
+    autoplay
+    muted
+    loop
+    ></video>
+
+// ------------ HTML entity
+
+    2020&copy;
+    <br>
+    ABC &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; XYZ
+    <br>
+    &reg;
